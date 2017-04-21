@@ -25,7 +25,7 @@ SECRET_KEY = '_4dgnhnnfll^zzdcz4ql9&2*$!zzi(z)^fm%opud)a-f2sg=^o'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [zizou.pythonanywhere.com]
+ALLOWED_HOSTS = ['zizou.pythonanywhere.com']
 
 
 # Application definition
