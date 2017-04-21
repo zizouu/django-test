@@ -5,6 +5,11 @@
     <title>Title</title>
 </head>
 <body>
+{% for post in posts %}
+    {{ post.published_date }}
+    {{ post.title }}
+    {{ post.text|linebreaksbr }}
+{% endfor %}
 
 </body>
 </html>
